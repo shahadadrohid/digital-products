@@ -1,16 +1,21 @@
-/* Shared related styles */
+/* ----------------------------------------------- 
+Shared related styles
+-----------------------------------------------  */
 
 * {
     margin: 0;
     padding: 0;
 }
 
+
 /* ----------------------------------------------- 
+-----------------------------------------------
               Header related styles
+-----------------------------------------------
 ----------------------------------------------- */
 
 .nav-container {
-    padding: 10px;
+    padding: 15px;
     background: rgb(80, 79, 79);
     display: flex;
     align-items: center;
@@ -30,4 +35,42 @@
 .nav-links li {
     font-size: 20px;
     margin-right: 20px;
+}
+
+
+/* Main related styles */
+
+/* Banner related styles */
+.banner-parent-container {
+    background-image: url('../images/background.png'), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+}
+
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 220px 0px;
+}
+
+.banner-content {
+    max-width: 600px;
+    color: white;
+    line-height: 60px;
+}
+
+.banner-title {
+    font-size: 60px;
+}
+
+.banner-content button {
+    border: 0;
+    padding: 15px 22px;
+    border-radius: 8px;
+    background-color: rgb(238, 81, 81);
+    color: white;
+    font-size: 16px;
+}
+
+.banner-container img {
+    width: 300px;
 }
