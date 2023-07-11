@@ -1,0 +1,33 @@
+/* Shared related styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------------------------- 
+              Header related styles
+----------------------------------------------- */
+
+.nav-container {
+    padding: 10px;
+    background: rgb(80, 79, 79);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.nav-img img {
+    width: 200px;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    font-size: 20px;
+    margin-right: 20px;
+}
